@@ -160,7 +160,7 @@ export default class TableList extends PureComponent {
           <Col span={8}>
             <FormItem label="规则编号">
               {getFieldDecorator('no')(
-                <Input placeholder="请输入" />
+                <Input placeholder="请输入编号" />
               )}
             </FormItem>
           </Col>
