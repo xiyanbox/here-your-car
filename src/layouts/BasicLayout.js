@@ -210,6 +210,7 @@ class BasicLayout extends React.PureComponent {
       window.dispatchEvent(event);
     }, 600);
   }
+  
   handleNoticeClear = (type) => {
     message.success(`清空了${type}`);
     this.props.dispatch({
