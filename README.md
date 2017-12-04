@@ -12,7 +12,7 @@
 
 ```bash
 $ git clone https://github.com/xiyanbox/here-your-car.git
-$ cd driver-manage-system
+$ cd here-your-car
 $ npm install
 $ npm start         # 访问 http://localhost:8000
 ```
