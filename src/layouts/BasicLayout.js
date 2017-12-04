@@ -255,7 +255,7 @@ class BasicLayout extends React.PureComponent {
         >
           <div className={styles.logo}>
             <Link to="/">
-              <img src="https://gw.alipayobjects.com/zos/rmsportal/iwWyPinUoseUxIAeElSx.svg" alt="logo" />
+              <img src="http://www.svgcuts.com/fsvgfotw/2011/svgcuts_2011_06_15.png" alt="logo" />
               <h1>有辆车学员管理系统</h1>
             </Link>
           </div>

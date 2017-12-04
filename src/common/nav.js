@@ -44,7 +44,7 @@ const data = [
     path: '',
     children: [
       {
-        name: 'Dashboard',
+        name: '统计报表',
         icon: 'dashboard',
         path: 'dashboard',
         children: [
@@ -79,7 +79,23 @@ const data = [
           }
         ]
       }, {
-        name: '表单页',
+        name:'教练管理',
+        path:'teacher',
+        icon:'form',
+        children: [
+          {
+            name: '教练配置',
+            path: 'teacher-config',
+            component: LearnerSave
+          }, {
+            name: '教练信息查询',
+            path: 'teacher-info',
+            component: LearnInfo
+
+          }
+        ]
+      }, {
+        name: '奖励系统',
         path: 'form',
         icon: 'form',
         children: [
@@ -107,7 +123,7 @@ const data = [
           }
         ]
       }, {
-        name: '列表页',
+        name: '预约报名',
         path: 'list',
         icon: 'table',
         children: [
@@ -153,7 +169,7 @@ const data = [
           }
         ]
       }, {
-        name: '结果',
+        name: '驾校收支系统',
         path: 'result',
         icon: 'check-circle-o',
         children: [
